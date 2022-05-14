@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lifecycle: Catch Error</title>
+	<script src="https://unpkg.com/react@18.0.0/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@18.0.0/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+	<style>
+		.box {
+			border: 1px solid darkslateblue;
+			height: 150px;
+			width: 250px;
+			padding: 12px;
+			display: table;
+		}
+
+		.message {
+			height: 40px;
+			width: 100%;
+			text-align: center;
+			font-family: sans-serif;
+			font-size: 16px;
+			margin: auto;
+			display: table-row;
+		}
+
+		.evennumber {
+			display: table-row;
+			height: 100px;
+			width: 100%;
+			float: left;
+			text-align: center;
+			font-family: sans-serif;
+			font-size: 68px;
+			color: red;
+		}
+
+		.number {
+			display: table-row;
+			height: 100px;
+			width: 100%;
+			float: left;
+			text-align: center;
+			font-family: sans-serif;
+			font-size: 28px;
+		}
+
+		.button {
+			display: block;
+			text-align: center;
+			border: solid 1px orangered;
+			color: white;
+			width: 100px;
+			margin: auto 0;
+			cursor: pointer;
+			line-height: 26px;
+			font-size: 14px;
+			background-color: #003333;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" id="outer"></div>
+	<script type="text/babel" src="LifecycleCatchError.js"></script>
+</body>
+</html>

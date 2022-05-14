@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lifecycle: Unmount Phase</title>
+	<script src="https://unpkg.com/react@18.0.0/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@18.0.0/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+	<style>
+		.employee {
+			height: 40px;
+			width: 200px;
+			text-align: left;
+			vertical-align: middle;
+			font-family: sans-serif;
+			font-size: 18px;
+			color: #003333;
+		}
+
+		.button {
+			display: inline-block;
+			text-align: center;
+			border: solid 1px #333300;
+			color: black;
+			cursor: pointer;
+			line-height: 26px;
+			font-size: 14px;
+			background-color: #b3b300;
+		}
+		.button: hover {
+			background-color: #00ffff;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" id="outer"></div>
+	<script type="text/babel" src="LifecycleUnmountPhase.js"></script>
+</body>
+</html>
